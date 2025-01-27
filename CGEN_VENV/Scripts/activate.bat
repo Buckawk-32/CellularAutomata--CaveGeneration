@@ -8,15 +8,15 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Nethika\CODE\Offical Projects\GitHub\Repositories\AP\AP_2024_PT\PT_VENV
+set "VIRTUAL_ENV=D:\NETHIKA\CODE\Offical Projects\Research\Cave&TextureGeneration\CellularAutomata--CaveGeneration\CGEN_VENV"
 
 if not defined PROMPT set PROMPT=$P$G
 
 if defined _OLD_VIRTUAL_PROMPT set PROMPT=%_OLD_VIRTUAL_PROMPT%
 if defined _OLD_VIRTUAL_PYTHONHOME set PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%
 
-set _OLD_VIRTUAL_PROMPT=%PROMPT%
-set PROMPT=(PT_VENV) %PROMPT%
+set "_OLD_VIRTUAL_PROMPT=%PROMPT%"
+set "PROMPT=(CGEN_VENV) %PROMPT%"
 
 if defined PYTHONHOME set _OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%
 set PYTHONHOME=
@@ -24,8 +24,8 @@ set PYTHONHOME=
 if defined _OLD_VIRTUAL_PATH set PATH=%_OLD_VIRTUAL_PATH%
 if not defined _OLD_VIRTUAL_PATH set _OLD_VIRTUAL_PATH=%PATH%
 
-set PATH=%VIRTUAL_ENV%\Scripts;%PATH%
-set VIRTUAL_ENV_PROMPT=(PT_VENV) 
+set "PATH=%VIRTUAL_ENV%\Scripts;%PATH%"
+set "VIRTUAL_ENV_PROMPT=CGEN_VENV"
 
 :END
 if defined _OLD_CODEPAGE (

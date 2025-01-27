@@ -115,7 +115,7 @@ class CaveGeneration_CA:
 
         width = len(grid)
         height = len(grid[0])
-
+        
         win_size = (width * 1, height * 1)
         window = pygame.display.set_mode(win_size)
 
