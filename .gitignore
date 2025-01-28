@@ -3,5 +3,5 @@
 # venv
 .venv/
 
-#pycache
+# py cache
 __pycache__/
